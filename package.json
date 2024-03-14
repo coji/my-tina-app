@@ -3,9 +3,10 @@
   "name": "tina-remix-starter",
   "version": "0.1.0",
   "sideEffects": false,
+  "type": "module",
   "scripts": {
-    "build": "tinacms build && remix build",
-    "dev": "tinacms dev -c \"remix dev\"",
+    "build": "tinacms build && remix vite:build",
+    "dev": "tinacms dev -c \"remix vite:dev\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -13,6 +14,7 @@
     "@remix-run/react": "^2.8.1",
     "@remix-run/vercel": "^1.19.3",
     "@vercel/node": "^3.0.22",
+    "@vercel/remix": "^2.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tinacms": "^1.6.0"
@@ -22,7 +24,9 @@
     "@remix-run/eslint-config": "^2.8.1",
     "@remix-run/serve": "^2.8.1",
     "@tinacms/cli": "^1.5.42",
-    "eslint": "^8.57.0"
+    "eslint": "^8.57.0",
+    "vite": "^5.1.6",
+    "vite-tsconfig-paths": "^4.3.2"
   },
   "engines": {
     "node": ">=16"
