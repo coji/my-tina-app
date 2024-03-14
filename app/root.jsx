@@ -1,10 +1,10 @@
-const {
+import {
   Links,
   LiveReload,
   Outlet,
   Scripts,
   ScrollRestoration,
-} = require("@remix-run/react");
+} from "@remix-run/react";
 
 export const meta = () => ({
   charset: "utf-8",
@@ -25,7 +25,6 @@ export default function App() {
         <Outlet />
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
       </body>
     </html>
   );
