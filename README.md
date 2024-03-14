@@ -36,9 +36,10 @@ Build the project:
 ```bash
 yarn build
 ```
+
 ## Deploying the Site
 
-This project can easily be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/). 
+This project can easily be deployed using services like [Netlify](https://www.netlify.com/) or [Vercel](https://vercel.com/).
 
 ### Build settings
 
@@ -47,7 +48,7 @@ In general, the build settings will look like so:
 
 ### Environment variables
 
-When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project. 
+When setting up the Netlify/Vercel project, apply the `TINA_CLIENT_ID` & `TINA_TOKEN` environment variables from your [app.tina.io](https://app.tina.io) project.
 
 ## Learn More
 

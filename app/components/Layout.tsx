@@ -1,12 +1,8 @@
-import { Link } from "@remix-run/react";
+import { Link } from '@remix-run/react'
 
-export const Layout = (props) => {
+export const Layout = (props: React.ComponentProps<'div'>) => {
   return (
-    <div
-      style={{
-        margin: '3rem',
-      }}
-    >
+    <div className="m-12">
       <header>
         <Link to="/">Home</Link>
         {' | '}
